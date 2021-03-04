@@ -24,12 +24,14 @@ First, all worksheets were combined into one document and attached to this repos
 
 Given metrics that could be used to perform multiple regression were: Currency Code, Spend, Start/ End Date, Gender, age brackets and etc. 
 1. First, I decided to test if **duration** of how long the ad has been running could be a good predictor for impressions. 
-  a. Therefore, Duration column was created (Times were omitted from dates and I took the difference of the End Day and Start Day. If end day was blank, meaning the ad is still running, I used the function =TODAY() to set the end date as the date of analysis performed) 
-  b. Simple Linear Regression was performed and following reslts were obtained:
+  1. Therefore, Duration column was created (Times were omitted from dates and I took the difference of the End Day and Start Day. If end day was blank, meaning the ad is still running, I used the function =TODAY() to set the end date as the date of analysis performed) 
+  1. Simple Linear Regression was performed and following reslts were obtained:
   
   ![Simple Linear Regression,Duration](https://github.com/DurdonaG/linear_regression_snapchatdata/blob/main/Analyzed%20Data%20and%20Results/image.png)
   
-  Interpretation: 
+  ######Interpretation: Least square estimate of Duration is given as a coefficient. Our **null hypothesis**: Duration is not useful (or significant) in predicting impressions. **Alternative Hypothesis**: Duration is useful (or significant) in predicting impressions.
+  Significance F Value 0.697 indicates that there are 697 chances in 1000 that my independent variable is not useful in predicting Y which is a pretty high number. 
+  Since it is > than 0.05, we fail to reject null hypothesis. 
 
 
 
