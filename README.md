@@ -23,6 +23,7 @@ Can multiple regression model tell me which variables will be the best predictor
 First, all worksheets were combined into one document and attached to this repository. 
 
 Given metrics that could be used to perform multiple regression were: Currency Code, Spend, Start/ End Date, Gender, age brackets and etc. 
+
 **Regression 1:** First, I decided to test if **duration** of how long the ad has been running could be a good predictor for impressions. 
   Therefore, Duration column was created (Times were omitted from dates and I took the difference of the End Day and Start Day. If end day was blank, meaning the ad is still running, I used the function =TODAY() to set the end date as the date of analysis performed) 
   Simple Linear Regression was performed and following reslts were obtained:
@@ -43,7 +44,12 @@ Given metrics that could be used to perform multiple regression were: Currency C
   Significance F Value 9.18E-136,extremely small, so we reject null hypothesis.  
   Now, when we look at the p- values individually, we can tell that Duration is not significant in predicting impressions. 
   
-**Regression 3:**  This time, currencies, duratiion, and money spent were used as independent variables. Dummy variables were created for the currencies: 
+**Regression 3:**  This time, currencies, duratiion, and money spent were used as independent variables. Dummy variables were created for the currencies: USD, EUR, GBP, CAD. Following results were obtained: 
+![Simple Linear Regression: Currency, duration, money spent](https://github.com/DurdonaG/linear_regression_snapchatdata/blob/main/Analyzed%20Data%20and%20Results/Screen%20Shot%202021-03-04%20at%209.15.41%20AM.png)
+
+Y = -146982.14 +352.19A + 213.63B +45182.79C + 442058.17D + 697291.07E +329993.72F
+###### Interpretation:
+
 
 4. Perform calculations and model-building to answer the data-related questions; A list of any data analysis or metrics that you explored and any resulting numbers, tables or visualizations that help convey the results + a brief description about what these mean
 5. Relate the data findings back to your initial business question and outline what your linear regression model tells us about election ads, city government salaries, etc.;  A brief summary of how the numerical findings relate back to your initial question, what you can answer 
