@@ -25,9 +25,9 @@ First, all worksheets were combined into one document and attached to this repos
 Given metrics that could be used to perform multiple regression were: Currency Code, Spend, Start/ End Date, Gender, age brackets and etc. 
 1. First, I decided to test if **duration** of how long the ad has been running could be a good predictor for impressions. 
   a. Therefore, Duration column was created (Times were omitted from dates and I took the difference of the End Day and Start Day. If end day was blank, meaning the ad is still running, I used the function =TODAY() to set the end date as the date of analysis performed) 
-  b. Simple Linear Regression was performed and following reslts were obtained: 
-  ![Simple Linear Regression to Predict Impressions based on the Duration] 
-  (https://github.com/DurdonaG/linear_regression_snapchatdata/blob/main/Analyzed%20Data%20and%20Results/image.png)
+  b. Simple Linear Regression was performed and following reslts were obtained:
+  
+  ![Simple Linear Regression,Duration](https://github.com/DurdonaG/linear_regression_snapchatdata/blob/main/Analyzed%20Data%20and%20Results/image.png)
   
   Interpretation: 
 
