@@ -1,4 +1,4 @@
-# Constructing acccurate predictions of impressions for an advertisement from the Snapchat Political and Advocacy ads library 
+# Constructing accurate predictions of impressions for an advertisement from the Snapchat Political and Advocacy ads library 
 
 ## Background 
 
