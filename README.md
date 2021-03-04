@@ -47,49 +47,32 @@ Given metrics that could be used to perform multiple regression were: Currency C
 **Regression 3:**  This time, currencies, duratiion, and money spent were used as independent variables. Dummy variables were created for the currencies: USD, EUR, GBP, CAD. Following results were obtained: 
 ![Simple Linear Regression: Currency, duration, money spent](https://github.com/DurdonaG/linear_regression_snapchatdata/blob/main/Analyzed%20Data%20and%20Results/Screen%20Shot%202021-03-04%20at%209.15.41%20AM.png)
 
-Y = -146982.14 +352.19A + 213.63B +45182.79C + 442058.17D + 697291.07E +329993.72F
 ###### Interpretation:
+Best fitting estimate of the multiple regression equation: Y = -146982.14 +352.19A + 213.63B +45182.79C + 442058.17D + 697291.07E +329993.72F
+ANOVA:  **Null hypothesis**: The hypothesis of no linear regression: together all independent variables are not useful (or significant) in predicting Y. **Alternative Hypothesis**: Together all independet variables are useful (or significant) in predicting Y.
+
+Since Significance f value is 2.14E-142, which is less than .05, we reject the null hypothesis and conclude that All independent variables are useful in predicting Y. 
+*R squared value* 0.643 indicates that 64.3% of the variation in Y is explained by our equation. Therefore, 35.7% of the variation in Y is unexplained by the multiple linear regression model. 
+
+*Standard error* value of 642495.8 indicates that approximately 68% of the prediction for Y are accurate within one standard error. 
+
+Remark: Even though, p values are greater than 0.05 for some currencies, because other currencies are significant, we know there is significant currencies so we leave USD, eUR, and CAD. 
+
+## Relating back to Business Question: ##
+
+After doing several multiple regressions, we can conclude that impressions can be predicted from Currencies, money spent, and duration, all independent variables taken togeteher. 
+
+Based on my analysis it might be helpful to consider the target market of ads based on gender, age bracket and etc, but since the information in the spreadsheets was not complete for the aforementioned criteria, I did not include them into this anaysis. 
 
 
-4. Perform calculations and model-building to answer the data-related questions; A list of any data analysis or metrics that you explored and any resulting numbers, tables or visualizations that help convey the results + a brief description about what these mean
-5. Relate the data findings back to your initial business question and outline what your linear regression model tells us about election ads, city government salaries, etc.;  A brief summary of how the numerical findings relate back to your initial question, what you can answer 
-
-based on your data analysis, what additional data might be helpful for you to build on these findings, and why this is important for you 
-
-NOTE: Depending on your question you do not have to format your README in this exact format (e.g. “Business Question”, “Data Question”, etc.) as long as you include all of the same relevant information.
-
-Apply Excel Data Analysis ToolPak correlation and regression functions to model a simple and a multiple linear regression equation (with at least 2 independent variables) with a publicly available dataset.
-Determine what linear regression statistics such as the R2 value, standard error, coefficients, p-value, and F significance mean for your specific data set, and interpret these results for a non-technical audience
-Evaluate and interpret your linear regression models and explain to your audience (based on the dataset used and business questions posed) what these values mean and how your audience should consider these values for current and future operations.
-
-Project Deliverables
 
 
-Excel files of the original data used for your analysis
-Excel files that contain your analysis. If this is too large to save in the GitHub repository, save this in a Google Drive and provide a link to the data in your README.
-README.md file
-Simple step-by-step descriptions on how you manipulated the Excel data 
 
-Description 
-Create a public GitHub repository that contains your written summary of the regression analysis and your Excel/CSV files used
 
-Components
-Excel files of the original data used for your analysis
-Excel files that contain your analysis. If this is too large to save in the GitHub repository, save this in a Google Drive and provide a link to the data in your README.
-README.md file
-Simple step-by-step descriptions on how you manipulated the Excel data 
-README components
-A brief statement summarizing background information about your initial problem statement. Here you should also include any links to relevant outside sources.
-A 1-sentence “Business Question” based on the background information that you intend to explore with data
-A list of data sources with brief descriptions with links to either the original data sources or the Excel files in your GitHub repository
-A list of any data analysis or metrics that you explored and any resulting numbers, tables or visualizations that help convey the results + a brief description about what these mean
-A brief summary of how the numerical findings relate back to your initial question, what you can answer based on your data analysis, what additional data might be helpful for you to build on these findings, and why this is important for you 
 
-NOTE: Depending on your question you do not have to format your README in this exact format (e.g. “Business Question”, “Data Question”, etc.) as long as you include all of the same relevant information.
 
-Can you predict the number of impressions for an advertisement for any of the years of given data?
 
-Can we predict impressions based on how much spent and age bracket 
-how they vary over the year 
 
-Analysis of the Snapchat Political and Advocacy ads library and prediction of the number of impressions for an advertisement for the given data
+
+
+
