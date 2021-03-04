@@ -2,10 +2,10 @@
 
 ## Background 
 
-The Snap Inc. Political and Advocacy Ads Library provides the public with access to political, issue related, and advocacy Ads that are shown on Snapchat. This library was created to give visibility into Snapchat's political and advocacy-related advertisements. The Political and Advocacy Ads Library is an important step in efforts to increase the level of transparency around political and issue advertising on Snapchat. All political, issue, and advocacy Ads are publicly available, along with relevant information on impressions, spend, and paying entities. Information on the organization that created the Ad, impressions, spend, targeting criteria, and the creative are all available. This analysis goes over the attached data to tackle following questions/concepts: 
+The Snap Inc. Political and Advocacy Ads Library provides the public with access to political, issue related, and advocacy Ads that are shown on Snapchat. This library was created to give visibility into Snapchat's political and advocacy-related advertisements. The Political and Advocacy Ads Library is an important step in efforts to increase the level of transparency around political and issue advertising on Snapchat. All political, issue, and advocacy Ads are publicly available, along with relevant information on impressions, spend, and paying entities. Information on the organization that created the Ad, impressions, spend, targeting criteria, and the creative are all available. This analysis goes over the attached data to tackle following question: 
 
-1. What is the best way to predict impressions based on the data given?
-2. Analyze the relationship among impressions received and money spent in the scope of the last four years 
+What is the best way to predict impressions based on the data given?
+
 
 Source: https://www.snap.com/en-US/political-ads 
 
