@@ -56,7 +56,6 @@ Since Significance f value is 2.14E-142, which is less than .05, we reject the n
 
 *Standard error* value of 642495.8 indicates that approximately 68% of the prediction for Y are accurate within one standard error. 
 
-Remark: Even though, p values are greater than 0.05 for some currencies, because other currencies are significant, we know there is significant currencies so we leave USD, eUR, and CAD. 
 
 ## Relating back to Business Question: ##
 
@@ -64,7 +63,7 @@ After doing several multiple regressions, we can conclude that impressions can b
 
 Based on my analysis it might be helpful to consider the target market of ads based on gender, age bracket and etc, but since the information in the spreadsheets was not complete for the aforementioned criteria, I did not include them into this anaysis. 
 
-
+Answering the business question, number of impressions are related to the metrics that we have analyzed and can be predicted. Number of impressions allows to advertisers to underdand better what worked in the past and what metrics are more important than others to target. Total Impressions are the total number of times a Snapchatter saw ones brand as either the Story Tile  or the images and videos shown after opening the Story. The higher number of impressions, the more interaction between the advitiser and the client. Therefore, our analysis is important because understanding the correlation between certain metric and impressions lets the advertiser to target the most effective metric. (For example, if duration and money spent are not positively correlated with the number of impressions, advertiser will be able to focus on other metrics that are more important and correlated to the number of impressions). 
 
 
 
